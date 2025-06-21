@@ -35,3 +35,15 @@ p + h3 {
   background-color: cornflowerblue;
   color: white;
 }
+div > input{
+  background-color: darksalmon;
+}
+
+input[type="text"]{
+  color: red;
+  
+}
+
+input[type="password"]{
+   color: green;
+}
