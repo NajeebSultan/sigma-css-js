@@ -18,3 +18,8 @@ h1 , h3 {
   color:antiquewhite
    
 }
+
+.post a {
+  color: purple;
+  background-color: yellow;
+}
