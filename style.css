@@ -47,3 +47,21 @@ input[type="text"]{
 input[type="password"]{
    color: green;
 }
+
+input [type]{
+  background-color: ghostwhite;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+button:active{
+  background-color: pink;
+  color: black;
+
+}
+
+p:active{
+  font-weight: bold;
+}
