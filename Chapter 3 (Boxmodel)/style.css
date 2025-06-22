@@ -5,10 +5,17 @@ div {
  border: 5px solid black;
  border-top: dashed  blue ;
  border-radius: 10px  ;
+ margin-bottom: 25px;
 }
 
 h1{
   border-width: 2px;
 border-style: dotted;
 border-color: green;
+}
+
+button{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 25px;
 }
