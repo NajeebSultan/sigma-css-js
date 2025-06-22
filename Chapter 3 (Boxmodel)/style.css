@@ -4,6 +4,7 @@ div {
   background-color: pink;
  border: 5px solid black;
  border-top: dashed  blue ;
+ border-radius: 10px  ;
 }
 
 h1{
