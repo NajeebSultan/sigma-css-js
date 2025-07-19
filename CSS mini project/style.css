@@ -35,11 +35,11 @@
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
-.sidebar_menu.logo a {
+.sidebar_menu .logo a {
   position: absolute;
-  left: 50px;
+  left: 60px;
   color: white;
-  text-decoration:none ;
+  text-decoration: none ;
   font-size: 20px;
   font-weight: 500px;
 
@@ -61,5 +61,33 @@
 }
 
 .sidebar_menu .menu li{
+margin-top:  6px;
+padding: 16px 20px ;
+}
+
+.sidebar_menu .menu i , a{
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.sidebar_menu .menu{
+  padding-right:  8px;
+}
+
+.sidebar_menu .social_media{
+ position: absolute;
+ left: 25%; 
+ bottom:50px ;
+}
+
+.sidebar_menu .social_media{
+  color: white;
+  opacity: 0.5;
+  padding: 0 5px;
+
+}
+#check{
+  display: none;
 
 }
