@@ -18,3 +18,11 @@ let nums = [1, 2, 3, 4, 5];
 //  Array pop method
 cars.pop();
 console.log(cars);
+
+// Array unshift method
+cars.unshift("ferrari");
+console.log(cars);
+// Array shift method
+let followers = ["a","b","c"];
+followers.shift();
+console.log(followers);
