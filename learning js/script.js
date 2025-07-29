@@ -54,3 +54,7 @@ console.log(slicedNumbers);
 let fruits = ["apple", "banana", "cherry", "date"];
 fruits.splice(1, 2, "orange", "kiwi");
 console.log(fruits); 
+
+//Nested Arrays
+let num = [[1,2],[3,4],[5,6]];
+console.log(num);
