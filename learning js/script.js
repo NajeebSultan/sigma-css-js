@@ -9,8 +9,12 @@ let nums = [1, 2, 3, 4, 5];
 
  let info = ["shrada", 23,90.6];
  console.log(info);
-
+// -----Array push method------
  let cars = ["audi", "bmw", "xuv" ,"maruti"];
  cars.push("totyota");
  cars.push("honda");
  console.log(cars);
+
+//  Array pop method
+cars.pop();
+console.log(cars);
