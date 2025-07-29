@@ -40,3 +40,8 @@ console.log(allcolors);
 //array reverse method
 primary.reverse();
 console.log(primary);
+
+//array sort method
+ let car = ["audi", "bmw", "xuv" ,"maruti"];
+car.sort();
+console.log(car);
