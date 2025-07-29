@@ -45,3 +45,7 @@ console.log(primary);
  let car = ["audi", "bmw", "xuv" ,"maruti"];
 car.sort();
 console.log(car);
+// array slice method
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let slicedNumbers = numbers.slice(2, 5); 
+console.log(slicedNumbers); 
