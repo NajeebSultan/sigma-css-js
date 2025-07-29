@@ -26,3 +26,13 @@ console.log(cars);
 let followers = ["a","b","c"];
 followers.shift();
 console.log(followers);
+
+//Array indexOf method
+let index = cars.indexOf("bmw");
+console.log(index);
+
+// array concat method
+let primary = ["red", "yellow","blue"];
+let secondary = ["green", "orange", "purple"];
+let allcolors = primary.concat(secondary);
+console.log(allcolors);
