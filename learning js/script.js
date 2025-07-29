@@ -6,3 +6,6 @@ let students = ["aman", "suman","ram" ];
 
 let nums = [1, 2, 3, 4, 5];
  console.log(students[0]);
+
+ let info = ["shrada", 23,90.6];
+ console.log(info);
