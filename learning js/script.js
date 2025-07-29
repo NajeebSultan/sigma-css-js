@@ -49,3 +49,8 @@ console.log(car);
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let slicedNumbers = numbers.slice(2, 5); 
 console.log(slicedNumbers); 
+
+// array splice method
+let fruits = ["apple", "banana", "cherry", "date"];
+fruits.splice(1, 2, "orange", "kiwi");
+console.log(fruits); 
