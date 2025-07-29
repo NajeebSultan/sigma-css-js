@@ -36,3 +36,7 @@ let primary = ["red", "yellow","blue"];
 let secondary = ["green", "orange", "purple"];
 let allcolors = primary.concat(secondary);
 console.log(allcolors);
+
+//array reverse method
+primary.reverse();
+console.log(primary);
