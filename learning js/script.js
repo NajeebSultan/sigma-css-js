@@ -9,3 +9,8 @@ let nums = [1, 2, 3, 4, 5];
 
  let info = ["shrada", 23,90.6];
  console.log(info);
+
+ let cars = ["audi", "bmw", "xuv" ,"maruti"];
+ cars.push("totyota");
+ cars.push("honda");
+ console.log(cars);
