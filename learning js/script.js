@@ -179,8 +179,10 @@ while (true){
   if(guess == random){
     console.log("you are right! random number was , " + random);
     break;
+  } else if(guess < random){
+   guess = prompt("too low, try again");
   }
   else{
-   guess=  prompt("wrong guess, try again");
+   guess=  prompt("too large, try again");
   }
 }
