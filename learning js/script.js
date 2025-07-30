@@ -89,3 +89,9 @@ for(let i = 1; i <= 3; i++) {
     }
 }
 
+//for of loop
+let frus = ["mango", "apple", "banana", "orange"];
+for (let fruit of frus) {
+    console.log(frus);
+
+}
