@@ -60,3 +60,8 @@ let num = [[1,2],[3,4],[5,6]];
 console.log(num);
 
 
+//for loop
+for(let i =0; i<=5; i++){
+    console.log(i);
+}
+
