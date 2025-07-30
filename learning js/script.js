@@ -177,7 +177,7 @@ while (true){
     break;
   }
   if(guess == random){
-    console.log("you are right!");
+    console.log("you are right! random number was , " + random);
     break;
   }
   else{
