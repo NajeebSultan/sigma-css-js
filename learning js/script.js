@@ -132,9 +132,26 @@ for (let fruit of frus) {
 // }
 
 //object literals
-let student = {
+const  student = {
   name: "Aman",
   age: 23,
 marks: 90.6,
 }
 console.log(student);
+
+//object of object 
+const classInfo = {
+  aman:{
+    grade: "A",
+    city: "Delhi",
+  },
+    shradha:{
+     grade: "A",
+    city: "pune",
+  },
+  karan:{
+     grade: "o",
+    city: "mumbai",
+  },
+};
+console.log(classInfo);
