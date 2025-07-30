@@ -162,3 +162,4 @@ console.log(Math.abs(-5));
 console.log(Math.pow(2, 3)); 
 console.log(Math.floor(4.7));
 console.log(Math.ceil(4.2));
+console.log(Math.random()); 
