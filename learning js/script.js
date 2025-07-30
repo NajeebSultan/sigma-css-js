@@ -99,35 +99,42 @@ for (let fruit of frus) {
 
 //Todo app
 
-let todo = [];
+// let todo = [];
 
-let req = prompt("please enter your request:");
+// let req = prompt("please enter your request:");
 
-while(true){
-  if(req=="quit"){
-    console.log("quiting app");
-    break;
-  }
+// while(true){
+//   if(req=="quit"){
+//     console.log("quiting app");
+//     break;
+//   }
 
-  if(req=="list"){
-    console.log("------------");
-    for(let i = 0; i < todo.length; i++) {
-      console.log(i , todo[i]);
-    }
+//   if(req=="list"){
+//     console.log("------------");
+//     for(let i = 0; i < todo.length; i++) {
+//       console.log(i , todo[i]);
+//     }
 
-    console.log("------------");
-  } else if (req == "add"){
-    let task = prompt("please enter your task");
-    todo.push(task);
-    console.log("task added! ");
-  } else if(req == "delete"){
-    let idx = prompt("please enter the task index");
-    todo.splice(idx, 1);
-    console.log("task deleted!");
-  } else {
-    console.log("wrong request!");
-  }
+//     console.log("------------");
+//   } else if (req == "add"){
+//     let task = prompt("please enter your task");
+//     todo.push(task);
+//     console.log("task added! ");
+//   } else if(req == "delete"){
+//     let idx = prompt("please enter the task index");
+//     todo.splice(idx, 1);
+//     console.log("task deleted!");
+//   } else {
+//     console.log("wrong request!");
+//   }
 
-  req = prompt("please enter your request");
+//   req = prompt("please enter your request");
+// }
+
+//object literals
+let student = {
+  name: "Aman",
+  age: 23,
+marks: 90.6,
 }
-
+console.log(student);
