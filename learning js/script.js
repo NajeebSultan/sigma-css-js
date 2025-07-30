@@ -65,3 +65,13 @@ for(let i =0; i<=5; i++){
     console.log(i);
 }
 
+
+//print odd numbers
+for(let i = 1; i <= 15; i += 2) {
+    console.log(i);
+}
+
+//print even numbers
+for(let i = 0 ; i<=10 ;i+= 2) {
+    console.log(i);
+}
