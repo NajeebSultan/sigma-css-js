@@ -163,3 +163,24 @@ console.log(Math.pow(2, 3));
 console.log(Math.floor(4.7));
 console.log(Math.ceil(4.2));
 console.log(Math.random()); 
+
+//Guessig game
+const max = prompt("Enter the maximum number");
+console.log(max);
+
+const random = Math.floor(Math.random() * max) + 1;
+
+let guess = prompt("Guess the number");
+while (true){
+  if(guess =="quit"){
+    console.log("quiting game");
+    break;
+  }
+  if(guess == random){
+    console.log("you are right!");
+    break;
+  }
+  else{
+   guess=  prompt("wrong guess, try again");
+  }
+}
