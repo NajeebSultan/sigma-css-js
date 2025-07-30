@@ -119,7 +119,7 @@ while(true){
   } else if (req == "add"){
     let task = prompt("please enter your task");
     todo.push(task);
-    console.log("task added ");
+    console.log("task added! ");
   } else if(req == "delete"){
     let idx = prompt("please enter the task index");
     todo.splice(idx, 1);
