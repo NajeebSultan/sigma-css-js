@@ -101,7 +101,7 @@ for (let fruit of frus) {
 
 let todo = [];
 
-let req = prompt("please enter your request");
+let req = prompt("please enter your request:");
 
 while(true){
   if(req=="quit"){
