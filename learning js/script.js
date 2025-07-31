@@ -228,3 +228,22 @@ function sum(a, b) {
   return a + b;
 }
 console.log(sum(5, 10));
+
+//scope
+function calSum(a,b){
+  let sum = a + b;
+  console.log(sum);
+}
+
+calSum(10, 20);
+
+//function expression
+let sum = function(a, b) {
+  return a + b;
+}
+console.log(sum(5, 10));
+
+let hello = function() {
+  console.log("Hello, World!");
+}
+hello();
