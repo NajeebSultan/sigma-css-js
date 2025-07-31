@@ -186,3 +186,9 @@ while (true){
    guess=  prompt("too large, try again");
   }
 }
+
+//functions 
+function hello(){
+  console.log("hello world");
+}
+hello();
