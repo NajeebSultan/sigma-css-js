@@ -222,3 +222,9 @@ function calAvg(a,b,c){
   console.log(avg);
 }
 calAvg(10, 20, 30);
+
+//return statement
+function sum(a, b) {
+  return a + b;
+}
+console.log(sum(5, 10));
