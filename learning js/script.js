@@ -192,3 +192,18 @@ function hello(){
   console.log("hello world");
 }
 hello();
+
+function printName() {
+  console.log("Aman");
+  console.log("Shradha");
+}
+printName();
+
+//roll a dice 
+
+function rollDice() {
+  const rand = Math.floor(Math.random() * 6) + 1;
+  console.log(rand);
+}
+
+rollDice();
