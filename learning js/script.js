@@ -259,3 +259,20 @@ let greet = function() {
   console.log("Hello!");
 }
 multipleGreet(greet, 3);
+
+//Methods
+const calculator = {
+  num:55,
+  add: function(a, b) {
+    return a + b;
+  },
+  subtract: function(a, b) {
+    return a - b;
+  },
+  multiply: function(a, b) {
+    return a * b;
+  },
+  divide: function(a, b) {
+    return a / b;
+  }
+}
