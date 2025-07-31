@@ -165,27 +165,27 @@ console.log(Math.ceil(4.2));
 console.log(Math.random()); 
 
 //Guessig game
-const max = prompt("Enter the maximum number");
-console.log(max);
+// const max = prompt("Enter the maximum number");
+// console.log(max);
 
-const random = Math.floor(Math.random() * max) + 1;
+// const random = Math.floor(Math.random() * max) + 1;
 
-let guess = prompt("Guess the number");
-while (true){
-  if(guess =="quit"){
-    console.log("quiting game");
-    break;
-  }
-  if(guess == random){
-    console.log("you are right! random number was , " + random);
-    break;
-  } else if(guess < random){
-   guess = prompt("too low, try again");
-  }
-  else{
-   guess=  prompt("too large, try again");
-  }
-}
+// let guess = prompt("Guess the number");
+// while (true){
+//   if(guess =="quit"){
+//     console.log("quiting game");
+//     break;
+//   }
+//   if(guess == random){
+//     console.log("you are right! random number was , " + random);
+//     break;
+//   } else if(guess < random){
+//    guess = prompt("too low, try again");
+//   }
+//   else{
+//    guess=  prompt("too large, try again");
+//   }
+// }
 
 //functions 
 function hello(){
@@ -247,3 +247,15 @@ let hello = function() {
   console.log("Hello, World!");
 }
 hello();
+
+//high order function
+function multipleGreet(func,count){
+  for(let i = 0; i < count; i++) {
+    func();
+  }
+}
+
+let greet = function() {
+  console.log("Hello!");
+}
+multipleGreet(greet, 3);
