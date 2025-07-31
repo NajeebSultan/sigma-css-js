@@ -238,15 +238,15 @@ function calSum(a,b){
 calSum(10, 20);
 
 //function expression
-let sum = function(a, b) {
+let sum1 = function(a, b) {
   return a + b;
 }
-console.log(sum(5, 10));
+console.log(sum1(5, 10));
 
-let hello = function() {
+let hello1 = function() {
   console.log("Hello, World!");
 }
-hello();
+hello1();
 
 //high order function
 function multipleGreet(func,count){
