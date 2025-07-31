@@ -207,3 +207,18 @@ function rollDice() {
 }
 
 rollDice();
+
+// function with parameters
+function printName(name) {
+  console.log(name);
+}
+
+printName("Aman");
+
+
+//function to calculate average
+function calAvg(a,b,c){
+  let avg = (a + b + c) / 3;
+  console.log(avg);
+}
+calAvg(10, 20, 30);
