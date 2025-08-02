@@ -275,4 +275,20 @@ const calculator = {
   divide(a, b) {
     return a / b;
   }
+
+ 
+}
+
+//this method
+const person = {
+  name: "Aman",
+  age: 23 ,
+  eng:12 ,
+  sci:14 ,
+  math: 16 ,
+  getavg(){
+    let avg = (this.eng + this.sci + this.math) / 3;
+    console.log(`Average marks of ${this.name} is ${avg}`);
+  }
+  
 }
