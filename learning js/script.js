@@ -312,3 +312,11 @@ let even = num3.filter((el) => {
 }   
 );
 console.log(even);
+
+//every method
+let num4 = [1, 2, 3, 4, 5];
+let allEven = num4.every((el) => {
+  return el % 2 === 0;
+}     
+);
+console.log(allEven);
