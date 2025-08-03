@@ -320,3 +320,11 @@ let allEven = num4.every((el) => {
 }     
 );
 console.log(allEven);
+
+//some method
+let num5 = [1, 2, 3, 4, 5];
+let someEven = num5.some((el) => {
+  return el % 2 === 0;
+}   
+);    
+console.log(someEven);
