@@ -299,3 +299,16 @@ arr.forEach((el) => {
   console.log(el);
 });
 
+//Map method
+let num2 = [1, 2, 3, 4, 5];
+let double = num.map((el) => {
+  return el * 2;
+});
+console.log(double);  
+//filter method
+let num3 = [1, 2, 3, 4, 5];
+let even = num3.filter((el) => {
+  return el % 2 === 0;
+}   
+);
+console.log(even);
