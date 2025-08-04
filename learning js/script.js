@@ -328,3 +328,8 @@ let someEven = num5.some((el) => {
 }   
 );    
 console.log(someEven);
+
+//default parameters 
+function sum(a,b){
+  return a + b;
+}
