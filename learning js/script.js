@@ -350,3 +350,8 @@ const data= {
   password: "ironman123",
 };
 const datacopy = {...data , id: 123, country: "pakistan" };
+
+//destructuring
+let names = ["Aman", "Shradha", "Karan"];
+let [name1, name2, name3] = names;
+console.log(name1, name2, name3);
