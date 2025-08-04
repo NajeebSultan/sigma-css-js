@@ -355,3 +355,17 @@ const datacopy = {...data , id: 123, country: "pakistan" };
 let names = ["Aman", "Shradha", "Karan"];
 let [name1, name2, name3] = names;
 console.log(name1, name2, name3);
+
+//destructuring objects
+const person1 = {
+  name: "Aman",
+  age: 23,  
+  class: 9,
+  subjects: ["math", "science", "english"],
+  username: "aman123",
+  password: "aman@123",
+
+};
+
+let{username: user , password: secret } = person1;
+console.log (username, password);
