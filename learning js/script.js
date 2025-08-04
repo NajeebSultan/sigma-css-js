@@ -338,3 +338,9 @@ function sum(a,b){
 let array = [1, 2, 3];
 console.log(...array); 
 
+//array literals
+let arr4 = [1, 2, 3];
+let newArr = [...arr4];
+console.log(newArr);
+
+
