@@ -343,4 +343,10 @@ let arr4 = [1, 2, 3];
 let newArr = [...arr4];
 console.log(newArr);
 
+//Object literals
 
+const data= {
+  email: "ironman@gmail.com",
+  password: "ironman123",
+};
+const datacopy = {...data , id: 123, country: "pakistan" };
