@@ -20,3 +20,7 @@ para2.innerText = "Me TOO";
 
 div.append(h1);
 div.append(para2);
+div.classList.add("box");
+
+document.querySelector("body").append(div);
+
