@@ -16,10 +16,10 @@ inp.value = ""; // Clear the input field after adding the item
 
 });
 
-let delBtns = document.querySelectorAll(".delete");
-for(delBtns of delBtns) {
-  delBtns.addEventListener("click", function () {
-    let par = this.parentElement; // Get the parent <li> element
-    par.remove(); // Remove the <li> from the list
-  });
-} 
+ul.addEventListener("click", function (event) {
+  if (event.target.nodeName =="BUTTON") {
+    let listItem = event.target.parentElement;
+    listItem.remove(); // Remove the list item when the delete button is clicked
+    console.log("deleted");
+  }
+});
