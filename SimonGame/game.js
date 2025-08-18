@@ -35,6 +35,7 @@ function userFlash(btn) {
 
 
 function levelUp() {
+  userSeq = [];
   level++;
   h2.innerText = `Level ${level}`;
 
@@ -55,7 +56,7 @@ let idx = level-1;
 
 if(userSeq[idx] === gameSeq[idx]) {
     if(userSeq.length === gameSeq.length) {
-      levelUp();
+      setTimeout(levelUp)
 }
 } else {
   h2.innerText = "Game Over, Press Any Key to Restart";
@@ -68,7 +69,7 @@ function btnPress (){
   userColor = btn.getAttribute("id");
   userSeq.push(userColor);
 
-  checkAns();
+  checkAns(userSeq.length-1);
 }
 
 let allBtns = document.querySelectorAll(".btn");
