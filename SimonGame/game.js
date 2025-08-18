@@ -42,17 +42,33 @@ function levelUp() {
   let randColor = btns[randIdx];
   let randBtn = document.querySelector(`.${randColor}`);
 
-  console.log(randBtn);
+ gameFlash(randBtn);
   console.log(randIdx);
-  console.log(randColor);
+ gameSeq.push(randColor);
 
   gameFlash(randBtn);
 }
 
+function checkAns(){
+  // console.log("curr level : ", level);
+let idx = level-1;
+
+if(userSeq[idx] === gameSeq[idx]) {
+    if(userSeq.length === gameSeq.length) {
+      levelUp();
+}
+} else {
+  h2.innerText = "Game Over, Press Any Key to Restart";
+}
+}
 function btnPress (){
   let btn = this;
   btnFlash(btn);
 
+  userColor = btn.getAttribute("id");
+  userSeq.push(userColor);
+
+  checkAns();
 }
 
 let allBtns = document.querySelectorAll(".btn");
