@@ -369,3 +369,16 @@ const person1 = {
 
 let{username: user , password: secret } = person1;
 console.log (username, password);
+
+//call stack
+
+function one () {
+  return 1;
+}
+function two() {
+  return one() + one();
+}
+function three() {
+  return two() + one();
+}
+console.log(three());
