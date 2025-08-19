@@ -420,7 +420,7 @@ saveToDb(
   () => {
     console.log("failure : weak connection. data not saved");
   }
-);
+)
 //promises
 
 
@@ -448,3 +448,23 @@ saveToDb2("apna college" )
   async function greet(){
     return "hello";
   }
+
+  //async await 
+
+function changeColor(color, delay){
+  return new Promise((resolve , reject) => 
+  {
+    setTimeout(() => {
+      hello1.style.color = color;
+      resolve();
+    }, delay);
+
+  })  
+}
+
+async function demo() {
+  await changeColor("red", 1000);
+  await changeColor("blue", 1000);
+  await changeColor("green", 1000);
+  await changeColor("black", 1000);
+}
