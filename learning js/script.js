@@ -443,3 +443,8 @@ saveToDb2("apna college" )
   .catch(() => {
     console.log("promise was rejected");
   });
+
+  //async 
+  async function greet(){
+    return "hello";
+  }
