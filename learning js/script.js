@@ -382,3 +382,42 @@ function three() {
   return two() + one();
 }
 console.log(three());
+
+//Call back hell
+
+let internetSpeed = Math.floor(Math.random() * 10) + 1;
+
+function success() {
+  console.log("success : your data was saved");
+}
+
+function failure() {
+  console.log("failure : weak connection. data not saved");
+}
+
+function saveToDb(data, success, failure) {
+  if (internetSpeed > 4) {
+    success();
+  } else {
+    failure();
+  }
+}
+
+saveToDb(
+  "apna college",
+  () => {
+    console.log("success : your data was saved");
+    saveToDb(
+      "hello world",
+      () => {
+        console.log("success2 : data2 saved");
+      },
+      () => {
+        console.log("failure2 : weak connection");
+      }
+    );
+  },
+  () => {
+    console.log("failure : weak connection. data not saved");
+  }
+);
