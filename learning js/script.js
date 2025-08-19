@@ -421,3 +421,25 @@ saveToDb(
     console.log("failure : weak connection. data not saved");
   }
 );
+//promises
+
+
+function saveToDb2(data) {
+  return new Promise((resolve, reject) => {
+    let internetSpeed2 = Math.floor(Math.random() * 10) + 1;
+    if (internetSpeed2 > 4) {
+      resolve("success : your data was saved");
+    } 
+    else {
+      reject("failure : weak connection. data not saved");
+    } 
+  });
+}
+
+saveToDb2("apna college" )
+  .then (() => {
+    console.log("promise was resolved");
+  })
+  .catch(() => {
+    console.log("promise was rejected");
+  });
