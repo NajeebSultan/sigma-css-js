@@ -3,10 +3,10 @@ let url2 = "https://dog.ceo/api/breeds/image/random";
 
 
 btn.addEventListener("click", async () => {
-  // let fact = await getFacts();
-  // console.log(fact);
-  // let p = document.querySelector("#result");
-  // p.innerText = fact;
+  let link = await getImage();
+  let img = document.querySelector("#result");
+  img.setAttribute("src", link);
+
 });
 
 
