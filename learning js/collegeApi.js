@@ -16,6 +16,12 @@ function Show(colArr) {
     list.innerHTML = "";
     for( col of colArr) {
       console.log(col.name);
+
+      let li = document.createElement("li");
+      li.textContent = col.name;
+      list.appendChild(li);
+
     }
 }
+
 
