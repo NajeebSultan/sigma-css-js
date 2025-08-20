@@ -468,3 +468,14 @@ async function demo() {
   await changeColor("green", 1000);
   await changeColor("black", 1000);
 }
+
+//fetch api
+let url = "https://catfact.ninja/fact";
+
+fetch(url)
+.ten((res) => {
+  console.log(res);
+})
+.catch((err) => {
+  console.log("ERROR- " , err);
+});
