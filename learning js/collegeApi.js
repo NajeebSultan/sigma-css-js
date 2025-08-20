@@ -11,4 +11,11 @@ btn.addEventListener("click", async () => {
 
 });
 
+function Show(colArr) {
+   let list = document.querySelector("#list");
+    list.innerHTML = "";
+    for( col of colArr) {
+      console.log(col.name);
+    }
+}
 
