@@ -473,9 +473,13 @@ async function demo() {
 let url = "https://catfact.ninja/fact";
 
 fetch(url)
-.ten((res) => {
+.then((res) => {
   console.log(res);
+  return res.json();
 })
-.catch((err) => {
+.then((data) => {
+  console.log(data.fact);
+})
+.catch((err)ew => {
   console.log("ERROR- " , err);
 });
