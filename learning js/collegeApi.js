@@ -24,4 +24,13 @@ function Show(colArr) {
     }
 }
 
+async function getColleges(country) {
+  try {
+    let res = await axios.get(url + country);
+    return res.data;
+  } catch (e) {
+    console.log("ERROR- ", e);
+    return [];
+  }   
+}
 
