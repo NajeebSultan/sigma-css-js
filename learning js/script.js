@@ -480,6 +480,6 @@ fetch(url)
 .then((data) => {
   console.log(data.fact);
 })
-.catch((err)ew => {
+.catch((err) => {
   console.log("ERROR- " , err);
 });
