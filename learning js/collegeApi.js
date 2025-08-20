@@ -1,4 +1,4 @@
-let url = "https://universities.hipolabs.com/search?name=";
+let url = "https://universities.hipolabs.com/search?country=";
 let btn = document.querySelector("button");
 
 btn.addEventListener("click", async () => {
@@ -14,7 +14,7 @@ btn.addEventListener("click", async () => {
 function Show(colArr) {
    let list = document.querySelector("#list");
     list.innerHTML = "";
-    for( col of colArr) {
+    for(let col of colArr) {
       console.log(col.name);
 
       let li = document.createElement("li");
